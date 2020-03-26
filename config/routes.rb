@@ -3,7 +3,14 @@ Rails.application.routes.draw do
   root "welcome#index"
   #/login ->signin ->
 
+  get "/login" , to: "login#index"
+
+  # get "/logout" , to: "login#logout"
+
   
 end
+
+
+
 
 

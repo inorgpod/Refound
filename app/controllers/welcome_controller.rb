@@ -6,22 +6,6 @@ class WelcomeController < ApplicationController
   end
 
 
-  def login
-
-  end
-
-
-
-
-  def signin
-    
-  end
-
-
-  def form
-
-  end
-
 
 
       
